@@ -1,0 +1,53 @@
+echo "# nagalaxmi" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nagalaxmilinga/nagalaxmi.git
+git push -u origin main
+@@ -0,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUTUS</title>
+ <style>
+    *{
+        margin: 30px;
+    }
+    .aboutus{
+        border: black solid;
+        border-radius: 30px;
+        background-color: blueviolet;
+        padding: 20px;
+        margin:20px;
+}
+ </style>   
+</head>
+
+<body>
+    <!--Aboutus-->
+<div class="aboutus">
+    <h2 class="text-info">ABOUTUS</h2>
+<p class="text-warning">SHRADDHA NIKETHAN imparts contemporary education for girls and boys. It encourages them to accept modern ideas while respecting universal traditional values. It prepares them to meet the challenges of the changing world and shapes them into confident and conscientious citizens. The school aims to provide multi-dimensional education by striking a balance between curricular and co-curricular activities for the all round development of the individual . Rather than being solely academically oriented SHARADDA NIKETHAN not only focuses on instilling a sense of confidence and discipline but also helps each student to develop a distinctive personality.</p>
+<h2 class="text-info"><i>VISION AND MISSION</i></h2>
+<div class="text-align:center text-warning" >
+    <p>“Live as if you were to die tomorrow. Learn as if you were to live forever.”
+        ― Mahatma Gandhi</p>
+            <p>
+                We foster our student's love for learning, encourage them to try new and exciting things, and give them a solid foundation to build on.
+            
+    
+                Our vision is to develop well rounded, confident and responsible individuals who aspire to achieve their full potential. We will do this by providing a welcoming, happy, safe, and supportive learning environment in which everyone is equal and all achievements are celebrated.
+            
+        
+                Our Mission is to provide high quality education and childcare in a safe, respectful and inclusive environment that builds a foundation for life-long learning.
+            </p>
+            
+</div>
+</div>
+    
+</body>
+</html>
